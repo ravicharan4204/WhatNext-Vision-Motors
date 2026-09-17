@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>Vehicle__c</members>
+        <members>Vehicle_Dealer__c</members>
+        <members>Vehicle_Customer__c</members>
+        <members>Vehicle_Order__c</members>
+        <members>Vehicle_Test_Drive__c</members>
+        <members>Vehicle_Service_Request__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>VehicleOrderTriggerHandler</members>
+        <members>VehicleOrderBatch</members>
+        <members>VehicleOrderBatchScheduler</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>VehicleOrderTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <types>
+        <members>Auto_Assign_Dealer</members>
+        <members>Test_Drive_Reminder</members>
+        <name>Flow</name>
+    </types>
+
+    <types>
+        <members>Vehicle__c</members>
+        <members>Vehicle_Dealer__c</members>
+        <members>Vehicle_Customer__c</members>
+        <members>Vehicle_Order__c</members>
+        <members>Vehicle_Test_Drive__c</members>
+        <members>Vehicle_Service_Request__c</members>
+        <name>CustomTab</name>
+    </types>
+	
+	<types>
+	    <members>WhatNext_Vision_Motors</members>
+	    <name>CustomApplication</name>
+	</types>
+
+    <version>67.0</version>
+</Package>
